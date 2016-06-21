@@ -1,0 +1,61 @@
+
+body{
+	background-color : #e45641;
+}
+
+.checkbox {
+
+	background-color: #f1a94e;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	position: absolute;
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+	font-size: 100px;
+	font-family: sans-serif;
+	color: #7b8d8e;
+	border-color: #7b8d8e;
+	border-width:5px;
+	box-sizing: border-box;
+	
+
+}
+
+.second {
+	margin-top: 160px;
+}
+
+.third {
+	margin-top: 320px;
+}
+
+.two {
+	margin-left:160px;
+}
+
+.three{
+	margin-left:320px;
+}
+
+#container{
+	margin-left: 410px;
+	margin-top: 10px;
+}
+
+.screen{
+	background-color: #5d4c46;
+	height: 140px;
+	width: 550px;
+	position: absolute;
+	margin-top: 485px;
+	margin-left: 370px;
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+	font-size: 70px;
+	font-family: 'Signika', sans-serif;
+	color: #7b8d8e;
+
+}
