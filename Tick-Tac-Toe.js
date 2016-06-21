@@ -4,6 +4,7 @@ var highlight_1;
 var highlight_2;
 var highlight_3;
 var count = 1;
+var draw;
 
 $(document).ready(function(){
 	$(".screen").html("Player X's turn")
@@ -37,9 +38,16 @@ $(document).ready(function(){
     				HighLight[highlight_3].css("border-style", "solid");
     				$(".screen").html("Player " + HighLight[Current].html() + " Wins")
     				$(".checkbox").off("click");
+    				draw = false;
+
+    			}
+    		};
+
+    		if(count == 10 && draw!=false)
+    			{
+    				$(".screen").html("Draw");
     			}
 
-    		};
     	};
 	}));
 });
